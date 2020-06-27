@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1024px) {
+  header {
+    min-height: 0;
+  }
+  header img {
+    margin-top: 7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+    color: #4c545d;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.6rem;
+    width: 70%;
+  }
+  .snippet {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0;
+  }
+  .snippet-feature {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .snippet-feature__image {
+    margin: auto;
+    padding: 0 5rem;
+    margin-bottom: 7rem;
+  }
+  .snippet-feature__card {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto;
+  }
+  .snippet-feature__card .card {
+    text-align: center;
+  }
+  .snippet-feature__card .card p {
+    width: 70%;
+    margin: auto;
+  }
+  .access h2 {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .footer__logo img {
+    width: 7rem;
+  }
+  .footer__nav ul {
+    -webkit-column-count: 1;
+            column-count: 1;
+    -webkit-column-gap: unset;
+            column-gap: unset;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .footer__nav ul li {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  body {
+    margin: 0 .5rem;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+    color: #4c545d;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=query.css.map */

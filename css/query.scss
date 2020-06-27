@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1024px) {
+    header {
+        min-height: 0;
+        img {
+            margin-top: 7rem;
+        }  
+    }
+}
+
+@media only screen and  (max-width: 768px) {    
+    h1,
+    h2,
+    h3 {
+    font-weight: 600;
+    color: rgb(76, 84, 93);
+    }
+
+    h1 {
+    font-size: 3.8rem;
+    }
+
+    h2 {
+    font-size: 2.8rem;
+    }
+    h3 {
+    font-size: 1.8rem;
+    }
+    p {
+    font-size: 1.6rem;
+    width: 70%;
+    }
+
+    .snippet {
+        flex-direction: column;
+
+        margin-bottom: 0;
+        &-feature {
+            flex-direction: column;
+            align-items: center;
+
+            &__image {
+                margin: auto;
+                padding: 0 5rem;
+                margin-bottom: 7rem;
+            }
+            
+            &__card {
+                justify-content: space-evenly;
+                
+
+                margin: auto;
+
+                .card {
+                    
+                    text-align: center;
+                    p{
+                        width: 70%;
+                        margin: auto;
+                    }
+                }
+
+            }
+        }
+    }
+    .access {
+        h2 {
+            margin-top: 3rem;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        align-content: space-between;
+        &__logo {
+            img {
+                width: 7rem;
+            }
+        }
+        &__nav {
+            ul {
+                column-count: 1;
+                column-gap: unset;
+
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                li {
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    body {
+        margin: 0 .5rem;
+    }
+    h1,
+    h2,
+    h3 {
+    font-weight: 600;
+    color: rgb(76, 84, 93);
+    }
+
+    h1 {
+    font-size: 3rem;
+    }
+
+    h2 {
+    font-size: 2.5rem;
+    }
+    h3 {
+    font-size: 1.5rem;
+    }
+    p {
+    font-size: 1.5rem;
+    width: 80%;
+    }
+}
