@@ -1,4 +1,4 @@
-https://gitpritam/github.io/clipboard
+https://gitpritam.github.io/clipboard
 
 # Frontend Mentor - Clipboard landing page
 
